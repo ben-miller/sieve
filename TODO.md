@@ -12,12 +12,12 @@ Build a real-time data pipeline that ingests job postings, YouTube videos, and R
 ## Week 1: Core Pipeline Infrastructure
 
 ### Project Setup
-- [ ] Initialize Git repo with .gitignore (Kotlin + Python)
-- [ ] Create Kotlin project with Gradle (Kotlin DSL)
-- [ ] Create Python project structure for scrapers
-- [ ] Set up Docker Compose: Kafka + Zookeeper + PostgreSQL
+- [x] Initialize Git repo with .gitignore (Kotlin + Python)
+- [x] Create Kotlin project with Gradle (Kotlin DSL)
+- [x] Create Python project structure for scrapers
+- [x] Set up Docker Compose: Kafka + Zookeeper + PostgreSQL
 - [ ] Verify all services running and accessible
-- [ ] Create project directory structure
+- [x] Create project directory structure
   ```
   /kotlin-pipeline    # Kotlin services
   /python-scrapers    # Python scraping services
@@ -61,10 +61,10 @@ Build a real-time data pipeline that ingests job postings, YouTube videos, and R
 - [ ] Test: RSS → Kafka → Postgres
 
 ### Documentation
-- [ ] Write docs/setup.md (local dev setup)
-- [ ] Create basic architecture diagram
+- [x] Write docs/setup.md (local dev setup)
+- [x] Create basic architecture diagram
 - [ ] Start DECISIONS.md with initial choices
-- [ ] Update README with project overview
+- [x] Update README with project overview
 
 ---
 
